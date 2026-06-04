@@ -7,10 +7,10 @@ export function Footer() {
         </div>
         <div>© {new Date().getFullYear()} AskChimps Pvt Ltd · Made in India</div>
         <a
-          href="mailto:hi@askchimps.ai"
+          href="mailto:hello@askchimps.ai"
           className="text-ink underline underline-offset-4"
         >
-          hi@askchimps.ai
+          hello@askchimps.ai
         </a>
       </div>
     </footer>

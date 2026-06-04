@@ -25,8 +25,8 @@ export async function POST(req: Request) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = process.env.CONTACT_TO ?? 'hi@askchimps.ai';
-  const from = process.env.CONTACT_FROM ?? 'AskChimps <hi@askchimps.ai>';
+  const to = process.env.CONTACT_TO ?? 'hello@askchimps.ai';
+  const from = process.env.CONTACT_FROM ?? 'AskChimps <hello@askchimps.ai>';
 
   if (!apiKey) {
     // soft-fail in dev — log + accept so the UI doesn't error out before Resend is configured

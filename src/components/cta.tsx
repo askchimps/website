@@ -32,7 +32,7 @@ export function CTA() {
         message:
           err instanceof Error
             ? err.message
-            : "Something didn't go through. Email us at hi@askchimps.ai instead.",
+            : "Something didn't go through. Email us at hello@askchimps.ai instead.",
       });
     }
   }
@@ -58,10 +58,10 @@ export function CTA() {
             <div>
               Email{' '}
               <a
-                href="mailto:hi@askchimps.ai"
+                href="mailto:hello@askchimps.ai"
                 className="text-ink underline underline-offset-4"
               >
-                hi@askchimps.ai
+                hello@askchimps.ai
               </a>
             </div>
             <div>Based in India · Built for Indian funnels</div>
