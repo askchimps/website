@@ -12,7 +12,8 @@ export function CTA() {
 
   async function onSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    const fd = new FormData(e.currentTarget);
+    const form = e.currentTarget;
+    const fd = new FormData(form);
     setState({ status: 'submitting' });
     try {
       const res = await fetch('/api/contact', {
@@ -24,7 +25,7 @@ export function CTA() {
         const body = await res.json().catch(() => ({}));
         throw new Error(body?.error ?? `HTTP ${res.status}`);
       }
-      (e.currentTarget as HTMLFormElement).reset();
+      form.reset();
       setState({ status: 'ok', message: "Thanks — we'll be in touch within a business day." });
     } catch (err) {
       setState({
