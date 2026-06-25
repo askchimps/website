@@ -12,7 +12,7 @@ import { PricingEndCta } from '@/components/pricing/end-cta';
 export const metadata: Metadata = {
   title: 'Pricing — AskChimps',
   description:
-    'Transparent per-minute pricing for AskChimps AI voice agents. Start with a Pilot at $500, scale on monthly plans from $1,050. Credits roll over up to 2 months.',
+    'Transparent per-minute pricing for AskChimps AI voice agents. No hidden fees, no surprises. Pay only for what you use.',
 };
 
 export default function PricingPage() {
