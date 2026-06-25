@@ -1,7 +1,7 @@
 const STATS = [
   { value: '60s', label: 'SLA from form-fill to first call' },
   { value: '24×7', label: 'always-on, even at 2am' },
-  { value: '2', label: 'languages: Hindi + English code-switch' },
+  { value: '100%', label: 'calls transcribed + scored automatically' },
   { value: '0', label: 'sales reps required' },
 ];
 

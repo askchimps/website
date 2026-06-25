@@ -8,22 +8,25 @@ export function Nav() {
           askchimps<span className="text-accent">.</span>
         </Link>
         <nav className="hidden gap-8 text-sm text-ink-dim md:flex">
-          <a href="#how" className="hover:text-ink">
+          <Link href="/#how" className="hover:text-ink">
             How it works
-          </a>
-          <a href="#use-cases" className="hover:text-ink">
+          </Link>
+          <Link href="/#use-cases" className="hover:text-ink">
             Use cases
-          </a>
-          <a href="#faq" className="hover:text-ink">
+          </Link>
+          <Link href="/pricing" className="hover:text-ink">
+            Pricing
+          </Link>
+          <Link href="/#faq" className="hover:text-ink">
             FAQ
-          </a>
+          </Link>
         </nav>
-        <a
-          href="#contact"
+        <Link
+          href="/#contact"
           className="inline-flex items-center bg-accent px-4 py-2 text-sm font-semibold text-night transition hover:bg-accent-dim"
         >
           Talk to us
-        </a>
+        </Link>
       </div>
     </header>
   );

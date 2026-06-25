@@ -1,7 +1,7 @@
 const CASES = [
   {
     title: 'Real estate',
-    body: 'Site visits booked while the lead is still hot. Hindi-first.',
+    body: 'Site visits booked while the lead is still hot.',
     tag: 'Most common',
   },
   {
@@ -22,7 +22,7 @@ const CASES = [
   },
   {
     title: 'D2C / e-commerce',
-    body: 'Cart abandons + COD confirmations. Spoken Hindi flow that actually converts.',
+    body: 'Cart abandons + COD confirmations. Spoken flow that actually converts.',
   },
 ];
 

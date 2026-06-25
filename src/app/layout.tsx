@@ -17,7 +17,7 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   title: 'AskChimps — AI voice agents that qualify your leads',
   description:
-    'Every inbound lead from your website gets called within 60 seconds. We qualify them in Hindi + English. You see only the warm ones.',
+    'Every inbound lead from your website gets called within 60 seconds. We qualify them. You see only the warm ones.',
   metadataBase: new URL('https://askchimps.ai'),
 };
 

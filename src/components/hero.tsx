@@ -16,7 +16,7 @@ export function Hero() {
               Not 60 minutes.
             </h1>
             <p className="mt-6 max-w-xl text-lg text-ink-dim">
-              The moment a lead hits your form, an AskChimps voice agent picks up the phone in Hindi + English, qualifies them, and hands the warm ones to your team. You sleep. We dial.
+              The moment a lead hits your form, an AskChimps voice agent picks up the phone, qualifies them, and hands the warm ones to your team. You sleep. We dial.
             </p>
             <div className="mt-10 flex flex-wrap gap-3">
               <a
@@ -30,6 +30,12 @@ export function Hero() {
                 className="inline-flex items-center border border-edge px-6 py-3 text-sm font-medium text-ink transition hover:border-ink"
               >
                 See how it works
+              </a>
+              <a
+                href="/pricing"
+                className="inline-flex items-center px-6 py-3 text-sm font-medium text-ink-dim transition hover:text-ink"
+              >
+                View pricing →
               </a>
             </div>
           </div>

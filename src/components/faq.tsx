@@ -1,19 +1,22 @@
-const FAQ_ITEMS = [
-  {
-    q: 'Does it actually speak Hindi?',
-    a: 'Yes, with natural code-switching. The agent answers an English question in English and an Hindi one in Hindi, within the same call.',
-  },
+import Link from 'next/link';
+
+type FaqItem = {
+  q: string;
+  a: React.ReactNode;
+};
+
+const FAQ_ITEMS: FaqItem[] = [
   {
     q: 'How fast is the first call?',
     a: 'We target under 60 seconds from form-fill to dial. If the lead is in active calling hours (configurable per org), it dials immediately. Outside hours, it queues for the next window.',
   },
   {
     q: 'What CRMs does it integrate with?',
-    a: "Anything that can POST a webhook — Salesforce, Zoho, HubSpot, Lead Squared, custom Google Forms, Meta Ads form submissions, WhatsApp Business. If it sends JSON, it works.",
+    a: 'Anything that can POST a webhook — Salesforce, Zoho, HubSpot, Lead Squared, custom Google Forms, Meta Ads form submissions, WhatsApp Business. If it sends JSON, it works.',
   },
   {
     q: 'How does it qualify a lead?',
-    a: 'You write the qualification questions in plain English. After each call, we extract answers + score intent (high / med / low / disqualified) so your reps only chase warm ones.',
+    a: 'You write the qualification questions in plain words. After each call, we extract answers + score intent (high / med / low / disqualified) so your reps only chase warm ones.',
   },
   {
     q: 'What happens on a no-pickup?',
@@ -21,7 +24,20 @@ const FAQ_ITEMS = [
   },
   {
     q: 'How much does it cost?',
-    a: "Per-call + a setup fee. Pricing depends on volume and language mix. Hit the form below and we'll send a quote inside a business day.",
+    a: (
+      <>
+        Transparent per-minute pricing — Pilot at $500 (one-time), monthly
+        plans from $1,050 with credits rolling over up to 2 months. Full
+        breakdown on{' '}
+        <Link
+          href="/pricing"
+          className="text-accent underline underline-offset-4 hover:text-accent-dim"
+        >
+          our pricing page
+        </Link>
+        .
+      </>
+    ),
   },
 ];
 
@@ -46,9 +62,9 @@ export function Faq() {
                   +
                 </span>
               </summary>
-              <p className="pb-6 pr-8 text-sm leading-relaxed text-ink-dim">
+              <div className="pb-6 pr-8 text-sm leading-relaxed text-ink-dim">
                 {item.a}
-              </p>
+              </div>
             </details>
           ))}
         </div>

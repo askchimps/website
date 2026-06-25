@@ -7,7 +7,7 @@ const STEPS = [
   {
     n: '02',
     title: 'AI agent dials',
-    body: 'Within 60 seconds of the lead landing, our voice agent calls in Hindi + English, opens with your script, and asks your qualification questions.',
+    body: 'Within 60 seconds of the lead landing, our voice agent calls, opens with your script, and asks your qualification questions.',
   },
   {
     n: '03',
