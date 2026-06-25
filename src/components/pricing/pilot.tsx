@@ -37,7 +37,7 @@ export function PricingPilot() {
               $500
             </div>
             <div className="mt-1 text-sm text-ink-dim">
-              one-time · no auto-renew · non-refundable
+              one-time · no auto-renew
             </div>
             <div className="mt-3 text-sm">
               @ <span className="font-semibold">$0.20</span> / minute

@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Are payments refundable?',
-    a: 'No. All charges — Pilot fee, monthly subscriptions, add-ons, and overage credit packs — are final and non-refundable once paid. Unused minutes remain usable within their normal validity window (3 months for the Pilot, 2-month rolling for monthly plans). If you cancel, you keep access through the end of the cycle you have already paid for; no partial refund is issued.',
+    a: "No. All charges — Pilot, subscriptions, add-ons, and credit packs — are final once paid. On cancellation, you keep full access for the rest of the cycle you've already paid for; no partial refund is issued.",
   },
   {
     q: 'What about the phone number and Truecaller verification?',
@@ -45,7 +45,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Can I cancel?',
-    a: "Yes. The Pilot is one-time so there's nothing to cancel. Monthly plans can be cancelled before the next cycle date — you keep access through the end of the current cycle (which you've already paid for), and any unexpired credits remain usable within their 2-month window.",
+    a: "Yes. The Pilot is one-time so there's nothing to cancel. For monthly plans, cancel any time before your next cycle date — you keep full access through the rest of the current cycle (which you've already paid for) and can use any credits in your balance during that period. Once the cycle ends, calling pauses along with the subscription. Any unexpired credits stay in your account until their normal expiry date and become usable again the moment you resume a monthly plan — picking back up before they expire restores them immediately, so nothing is wasted.",
   },
 ];
 

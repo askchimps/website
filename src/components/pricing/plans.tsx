@@ -119,7 +119,7 @@ function PlanCard({ plan }: { plan: Plan }) {
         <span className="text-sm text-ink-dim">/ month</span>
       </div>
       <div className="mt-1 text-[11px] uppercase tracking-widest text-muted">
-        Billed monthly · non-refundable
+        Billed monthly
       </div>
       <div className="mt-2 inline-flex w-fit bg-accent/15 px-2 py-1 text-xs font-semibold text-accent">
         {plan.perMin} · {plan.minutes}

@@ -25,11 +25,6 @@ export function PricingEndCta() {
               Talk to sales
             </a>
           </div>
-          <p className="mt-6 text-xs text-ink-dim">
-            All charges are final and non-refundable. Unused minutes follow the
-            standard validity window. By starting, you confirm you have read
-            and accepted these terms.
-          </p>
         </div>
       </div>
     </section>
